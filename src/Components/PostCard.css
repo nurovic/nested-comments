@@ -1,16 +1,14 @@
-.wrap-container {
-}
-
 .card-container {
     display: flex;
     flex-direction: column;
-    min-width: 600px;
+    min-width: 580px;
+    /* max-width: 600px; */
     margin-left: 20px;
-    border: .2px solid rgba(0, 0, 0, 0.581);
     border-radius: 12px;
+    border: .2px solid #b6e1ff68;
     padding: 0 5px;
     margin-top: 10px;
-    background: rgba(190, 188, 188, 0.269);
+    background:#085a9468
 }
 .card-detail{
     display: flex;
@@ -20,9 +18,41 @@
 .comment-input {
     width: 90%;
 }
-
+.container-user {
+    display: flex;
+    width: 90%;
+}
+.time-reply {
+    display: flex;
+}
+.time-reply p {
+    margin-left: 10px;
+}
+.container-text{
+    display: flex;
+    width: 70%;
+    background: #ffffff;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.sub-comments {
+    display: flex;
+}
+.container-text p {
+    max-width: 90%;
+    height: auto;
+ }
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
 button {
     margin-top: 10px;
-    width: 40%;
+    width: 30%;
     height: 30px;
+    margin-right: 10px;
+    background: rgb(133, 168, 248);
+    color: rgb(14, 1, 78);
+    border: none;
 }

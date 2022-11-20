@@ -22,7 +22,7 @@ const index = () => {
             id: nanoid(),
             text: comment,
             user: user.name,
-            time: new Date().toLocaleTimeString(),
+            time: new Date(),
             replies: [],
             likes: [],
         }

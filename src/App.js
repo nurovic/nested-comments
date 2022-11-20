@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   const { comments } = useSelector(state => state.post)
-  console.log(comments)
+
   return (
     <div className='App'>
       <CreateUser />
