@@ -20,6 +20,15 @@ const index = () => {
     }
   return (
     <div>
+        {
+            user.name 
+            ?
+            null
+            :        
+            <h3 className='user-notification'>Please Enter Name</h3>
+
+
+        }
         <form onSubmit={handleClick}>
             <input 
             type="text" 

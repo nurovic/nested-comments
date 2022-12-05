@@ -9,7 +9,6 @@ const index = () => {
     const {user} = useSelector(state => state.user)
     const [comment, setComment] = useState("")
 
-
     const handleClick = (e) => {
         e.preventDefault()
         if(!user.name){
@@ -31,14 +30,21 @@ const index = () => {
     }
   return (
     <div>
+        {
+        user.name
+            ?
         <form onSubmit={handleClick}>
-            <input 
-            type="text" 
-            placeholder='Make Comment'
-            value={comment}
-            onChange={(e) => setComment(e.target.value)}
-            />
-        </form>
+        <input 
+        type="text" 
+        placeholder='Make Comment'
+        value={comment}
+        onChange={(e) => setComment(e.target.value)}
+        />
+    </form>
+    :
+    null
+        }
+
     </div>
   )
 }

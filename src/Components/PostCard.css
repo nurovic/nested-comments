@@ -5,10 +5,10 @@
     /* max-width: 600px; */
     margin-left: 20px;
     border-radius: 12px;
-    border: .2px solid #b6e1ff68;
+    border: 1px solid rgba(212, 210, 210, 0.233);
     padding: 0 5px;
     margin-top: 10px;
-    background:#085a9468
+    background: #fff;
 }
 .card-detail{
     display: flex;
@@ -16,7 +16,7 @@
     align-items: center;
 }
 .comment-input {
-    width: 90%;
+    width: 100%;
 }
 .container-user {
     display: flex;
@@ -24,16 +24,18 @@
 }
 .time-reply {
     display: flex;
+    justify-content:space-between;
+    width: 90%;
 }
 .time-reply p {
     margin-left: 10px;
 }
 .container-text{
     display: flex;
-    width: 70%;
-    background: #ffffff;
+    width: 90%;
     border-radius: 10px;
     padding-left: 5px;
+    margin-bottom: 8px;
 }
 .sub-comments {
     display: flex;
@@ -42,17 +44,33 @@
     max-width: 90%;
     height: auto;
  }
+
+ .text-container{
+    display: flex;
+ }
+ .text-like {
+    margin-right: 20px;
+ }
 .buttons {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 100px;
 }
 button {
     margin-top: 10px;
-    width: 30%;
     height: 30px;
     margin-right: 10px;
     background: rgb(133, 168, 248);
-    color: rgb(14, 1, 78);
+    color: rgb(252, 252, 252);
     border: none;
+    border-radius: 10px;
+}
+input {
+    background: rgba(177, 177, 177, 0.213);
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+}
+.comment-container{
+    display: flex;
+    width: 100%;
 }

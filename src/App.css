@@ -5,6 +5,10 @@
   text-align: center;
   margin-top: 20px;
 }
+.container {
+  height: 100vh;
+  background: rgba(246, 246, 246, 0.87);
+}
 .comment-list-container{
   display: flex;
   flex-direction: column;
@@ -35,7 +39,13 @@
 .App-link {
   color: #61dafb;
 }
-
+.user-notification {
+  color: gray;
+  margin: 15px 0;
+}
+input {
+  margin: 10px
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div className='App'>
+      <div className='container'>
       <CreateUser />
       <CreateComment />
       <div className='comment-list-container'>
@@ -17,9 +18,8 @@ function App() {
           <PostCard key={comment.id} comment={comment}/>
         ))
       }
-      </div> 
-
-      
+      </div>    
+      </div>
     </div>
   );
 }
