@@ -3,11 +3,11 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0 ;
+  background: rgba(247, 245, 245, 0.892);
 }
 .container {
-  height: 100vh;
-  background: rgba(246, 246, 246, 0.87);
+  align-items: center;
 }
 .comment-list-container{
   display: flex;

@@ -1,14 +1,17 @@
+.wrap-container {
+    display: flex;
+}
 .card-container {
     display: flex;
     flex-direction: column;
-    min-width: 580px;
-    /* max-width: 600px; */
+    width: 700px;
     margin-left: 20px;
     border-radius: 12px;
-    border: 1px solid rgba(212, 210, 210, 0.233);
-    padding: 0 5px;
+    border: 1px solid rgba(212, 210, 210, 0.523);
+    padding-left:  5px;
     margin-top: 10px;
     background: #fff;
+    box-shadow: 3px 2px 4px #dbdbdbdc
 }
 .card-detail{
     display: flex;
@@ -28,7 +31,7 @@
     width: 90%;
 }
 .time-reply p {
-    margin-left: 10px;
+    margin-left: 10px;;
 }
 .container-text{
     display: flex;
@@ -66,11 +69,15 @@ button {
     border-radius: 10px;
 }
 input {
-    background: rgba(177, 177, 177, 0.213);
+    background: rgba(247, 245, 245, 0.892);
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.233);
 }
 .comment-container{
     display: flex;
     width: 100%;
+}
+.nested-comments {
+    padding-left: .5rem;
+    flex-grow: 1;
 }

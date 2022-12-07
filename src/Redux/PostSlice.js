@@ -16,7 +16,6 @@ export const PostSlice = createSlice({
       searchTree((node, next, found) =>
         node.id == target ? found() : next()
         )(state.comments);
-console.log("ssss")
         const replyComment = findId(action.payload.commentId)
         replyComment.replies.push(action.payload)
     },
