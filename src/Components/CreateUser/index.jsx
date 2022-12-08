@@ -34,6 +34,7 @@ const index = () => {
           value={userName}
           onChange={(e) => setUserName(e.target.value)}
         />
+        <button type="submit">Send</button>
       </form>
       <h2>{user.name ? "Name:" + " " + user.name : ""}</h2>
     </div>
